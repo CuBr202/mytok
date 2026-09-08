@@ -1,0 +1,16 @@
+# Append suitable entries to /home/yikesun/mytok/.gitignore.
+# Check that these directories contain generated data rather than source code.
+/c4/full_data/
+/c4/errored_dataset/
+/c4/errored_dataset_old/
+/c4/generated/
+/c4/entropy_old/
+/c4/tmp_freq/
+/c4/tmp_counters/
+
+# Required by dataset_shadow.py in a local clone.
+/.dataset-shadow-local
+
+# Inspect c4/results/ and history/ before choosing their exclusions.
+# Keep small result summaries, configuration, figures, and source code in Git.
+# Do not ignore dataset-manifest.jsonl or this transfer-tools directory.
